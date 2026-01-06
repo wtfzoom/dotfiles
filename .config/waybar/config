@@ -1,0 +1,71 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 38,
+    "margin-top": 10,
+    "margin-left": 15,
+    "margin-right": 15,
+    "spacing": 0, 
+
+    "modules-left": ["custom/launcher", "clock"],
+    "modules-center": ["hyprland/workspaces"],
+    "modules-right": ["network", "battery", "group/tray-drawer"],
+
+    "custom/launcher": {
+        "format": "",
+        "on-click": "wofi --show drun",
+        "tooltip": false
+    },
+
+    "clock": {
+        "format": "{:%H:%M}",
+        "format-alt": "  {:%d/%m/%y}",
+        "tooltip-format": "<tt>{calendar}</tt>"
+    },
+
+    "hyprland/workspaces": {
+        "format": "{icon}",
+        "on-click": "activate",
+        "all-outputs": true,
+        "sort-by-number": true,
+        "persistent-workspaces": { "*": 5 },
+        "format-icons": {
+            "active": "",
+            "default": "",
+            "urgent": ""
+        }
+    },
+
+    "network": { 
+        "format-wifi": "  {essid}", 
+        "format-ethernet": "󰈀", 
+        "format-disconnected": "󰖪", 
+        "tooltip-format": "{ipaddr}",
+        "on-click": "nm-connection-editor"
+    },
+
+    "battery": { 
+        "format": "{icon} {capacity}%", 
+        "format-icons": ["", "", "", "", ""] 
+    },
+
+    "group/tray-drawer": {
+        "orientation": "horizontal",
+        "drawer": {
+            "transition-duration": 500,
+            "children-class": "tray-child",
+            "transition-left-to-right": false
+        },
+        "modules": ["custom/arrow", "tray"]
+    },
+
+    "custom/arrow": { 
+        "format": "", 
+        "tooltip": false 
+    },
+
+    "tray": { 
+        "icon-size": 16, 
+        "spacing": 8 
+    }
+}

@@ -1,0 +1,32 @@
+{
+  "$schema": "/etc/xdg/swaync/configSchema.json",
+  "positionX": "right",
+  "positionY": "top",
+  "control-center-margin-top": 12,
+  "control-center-margin-bottom": 12,
+  "control-center-margin-right": 12,
+  "control-center-margin-left": 12,
+  "control-center-width": 380,
+  "fit-to-screen": false,
+  "hide-on-action": true,
+  "hide-on-clear": false,
+  "widgets": [
+    "volume",
+    "mpris",
+    "notifications"
+  ],
+  "widget-config": {
+    "volume": {
+      "label": "Aplicativos",
+      "show-per-app": true,
+      "show-per-app-icon": true,
+      "show-per-app-label": true,
+      "expand-button-label": "",
+      "collapse-button-label": ""
+    },
+    "mpris": {
+      "image-size": 60,
+      "image-radius": 10
+    }
+  }
+}
