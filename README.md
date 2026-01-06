@@ -10,7 +10,7 @@ Meu setup pessoal do Hyprland. Focado em tons vermelho sangue e cinza escuro (es
 
 | Desktop Clean | Workspaces / Janelas |
 | :---: | :---: |
-| <img src="https://github.com/user-attachments/assets/d2bd3d5a-e410-42b7-9e15-43eb4113d3ef" width="450" /> | <img src="https://github.com/user-attachments/assets/1f47ddc7-a4ba-4ba2-bc76-21ccd8a7df7c" width="450" /> |
+| <img src="https://github.com/user-attachments/assets/1f47ddc7-a4ba-4ba2-bc76-21ccd8a7df7c" width="450" /> | <img src="https://github.com/user-attachments/assets/d2bd3d5a-e410-42b7-9e15-43eb4113d3ef" width="450" /> |
 
 ---
 
